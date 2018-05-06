@@ -1,0 +1,49 @@
+{
+  "name": "basic-instagram-user-details",
+  "version": "1.0.0",
+  "description": "A simple API to scrap basic details of an Instagram user",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeDotJS/basic-instagram-user-details.git"
+  },
+  "author": "Rishi Giri <rushforlinux@gmail.com> (rishigiri.ml)",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "fetch",
+    "scrap",
+    "details",
+    "instagram",
+    "data",
+    "external url",
+    "linkshimmed",
+    "post",
+    "followers",
+    "following",
+    "verified",
+    "profile"
+  ],
+  "dependencies": {
+    "got": "^6.3.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.0",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true
+  },
+  "bugs": {
+    "url": "https://github.com/CodeDotJS/basic-instagram-user-details/issues"
+  },
+  "homepage": "https://github.com/CodeDotJS/basic-instagram-user-details#readme",
+  "main": "index.js"
+}
