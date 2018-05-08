@@ -1,6 +1,7 @@
 'use strict';
 
 const got = require('got');
+const unicode = require('unicodechar-string');
 
 const baseLink = username => {
 	return `https://instagram.com/${username}`;
@@ -38,7 +39,7 @@ module.exports = (username, info) => {
 		const data = res.body;
 		const skip = points[info];
 		const user = splitData(data, skip);
-		return {data: user};
+		return {data: unicode(user)};
 	}).catch(err => {
 		if (err && err.message === `Cannot read property \'split\' of undefined`) {
 			return {data: false};
