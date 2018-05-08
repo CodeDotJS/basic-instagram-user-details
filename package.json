@@ -1,6 +1,6 @@
 {
   "name": "basic-instagram-user-details",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple API to scrap basic details of an Instagram user",
   "license": "MIT",
   "repository": {
