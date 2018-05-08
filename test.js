@@ -42,7 +42,7 @@ test('linkshimmed', async t => {
 test('posts', async t => {
 	const bud = await fn(user, 'posts');
 
-	t.is(bud.data, `16041`);
+	t.is(bud.data, '16042');
 });
 
 test('followers', async t => {
