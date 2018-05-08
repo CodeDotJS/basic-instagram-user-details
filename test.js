@@ -24,7 +24,7 @@ test('username', async t => {
 test('bio', async t => {
 	const bud = await fn(user, 'bio');
 
-	t.is(bud.data, `\\ud83d\\udd099GAG Fun Off video contest is BACK!\\nSubmit your funny videos to the link below to win $100,000:`);
+	t.is(bud.data, '🔉9GAG Fun Off video contest is BACK!\\nSubmit your funny videos to the link below to win $100,000:');
 });
 
 test('externalUrl', async t => {
@@ -42,7 +42,7 @@ test('linkshimmed', async t => {
 test('posts', async t => {
 	const bud = await fn(user, 'posts');
 
-	t.is(bud.data, `16023`);
+	t.is(bud.data, `16041`);
 });
 
 test('followers', async t => {
