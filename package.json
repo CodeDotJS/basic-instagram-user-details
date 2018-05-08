@@ -32,7 +32,8 @@
     "profile"
   ],
   "dependencies": {
-    "got": "^6.3.0"
+    "got": "^6.3.0",
+    "unicodechar-string": "^1.0.0"
   },
   "devDependencies": {
     "ava": "^0.15.0",
