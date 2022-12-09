@@ -10,7 +10,7 @@ test('userid', async t => {
 });
 
 test('fullname', async t => {
-	const bud = await fn(user, 'fullname');
+	const bud = await fn(user, 'FullName');
 
 	t.is(bud.data, `9GAG: Go Fun The World`);
 });
